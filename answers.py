@@ -12,15 +12,15 @@ else:
     result = 0
     if sign == '+':
         result = number1+number2
-        print(f'The result of {number1} {sign} {number2} is {result}')
+        print(f'{number1} {sign} {number2} = {result}')
     elif sign == '-':
         result = number1 - number2
-        print(f'The result of {number1} {sign} {number2} is {result}')
+        print(f'{number1} {sign} {number2} = {result}')
     elif sign == '*':
         result = number1*number2
-        print(f'The result of {number1} {sign} {number2} is {result}')
+        print(f'{number1} {sign} {number2} = {result}')
     elif sign =='/':
         result = number1/number2
-        print(f'The result of {number1} {sign} {number2} is {result}')
+        print(f'{number1} {sign} {number2} = {result}')
     else:
         print("INVALID INPUT")
